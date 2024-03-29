@@ -1,0 +1,125 @@
+body{
+    background-image: url(denim.png);
+    margin: 0px;
+}
+
+.eraser{
+    clear: both;
+}
+
+.mainContainer{
+    background-color: gray;
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+    padding: 5px;
+}
+
+.commonContainer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.floatContainer{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 69%;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+.secondFloatContainer{
+    
+    background-color: white;
+    width: 274px; /*Nie umiem ustawić szerokość dynamicznie przy użyciu float left, jak daje dynamiczne blok spada poniżej */
+    height: 100px; 
+    margin-top: 5px;
+    float: left;
+}
+.groupOfContainers{
+    margin-top: 5px;
+    background-color: cadetblue;
+    width: 69%;
+    margin-right: 5px;
+    height: 400px;  
+    float: left;
+}
+
+.THICCBOONER{
+    background-color: white;
+    margin-top: 5px;
+    width: 274px;
+    height: 400px;
+    float: left;
+}
+
+.childContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:40px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 150px;
+    width: 290px; /*Prawy child ma o 0.66 więcej miejsca nie użytego */
+    float: left;
+}
+
+.soloChildContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 150px;
+    width 100%;
+     
+}
+
+.OlderBrother{
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.MiddleBrother{
+    margin-top: 5px;
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.YoungessBrother{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.lastOne{
+    margin-top: 5px;
+    background-color: white;
+    width: 445px;
+    height: 100px;
+    float: left;
+    margin-right: 5px;
+    
+}
+
+.lastOne1{
+    margin-top: 5px;
+    background-color: white;
+    width: 445px;
+    height: 100px;
+    float: left;
+    margin-left: 5px;
+}
